@@ -31,9 +31,9 @@ export default {
             <span>Emoji</span>
             <select v-model="formulario.emoji" @change="emitData">
                 <option disabled value="">seleccione</option>
-                <option>💻</option>
-                <option>🧑‍💻</option>
-                <option>🖥️</option>
+                <option value="💻">💻</option>
+                <option value="🧑‍💻">🧑‍💻</option>
+                <option value="🖥️">🖥️</option>
             </select>
         </div>
         <div class="formulario-campo">
